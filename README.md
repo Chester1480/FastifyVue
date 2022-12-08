@@ -1,1 +1,1 @@
-# FastifyVue
+# fastify-vite-example
