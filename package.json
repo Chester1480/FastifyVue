@@ -5,8 +5,18 @@
     "remote": "set NODE_ENV=remotedev&& nodemon ./server.js"
   },
   "dependencies": {
+    "config": "^3.3.8",
     "fastify": "3.17.0",
     "fastify-vite": "2.2.0-beta.5",
-    "fastify-vite-vue": "2.2.0-beta.5"
+    "fastify-vite-vue": "2.2.0-beta.5",
+    "ioredis": "^5.2.4",
+    "knex": "^2.3.0",
+    "mongo": "^0.1.0",
+    "mongodb": "^4.12.1",
+    "mongoose": "^6.8.0",
+    "redis": "^4.5.1",
+    "redis-commands": "^1.7.0",
+    "util": "^0.12.5",
+    "uuid": "^9.0.0"
   }
 }

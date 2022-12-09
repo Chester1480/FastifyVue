@@ -13,7 +13,9 @@ async function main () {
 }
 
 if (require.main === module) {
+  
   fastifyVite.app(main, (fastify) => {
+    fastify.register(require('./routes/index'), { prefix: '/check' });
     fastify.listen(3000, (err, address) => {
       if (err) {
         console.error(err)
